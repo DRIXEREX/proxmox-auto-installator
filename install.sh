@@ -30,6 +30,12 @@ echo "deb http://download.proxmox.com/debian/ceph-octopus bullseye main" > /etc/
 apt update -y
 apt dist-upgrade -y
 
+#Optimiser votre machine
+apt remove linux-image-amd64 'linux-image-4.19*' -y
+update-grub
+apt install ifupdown2 -y
+apt autoremove -y
+
 clear
 echo "L'installation est terminé ! Je redémmare votre système !"
 reboot
