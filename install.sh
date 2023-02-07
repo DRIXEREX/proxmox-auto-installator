@@ -27,7 +27,6 @@ cd
 #Optimiser votre machine
 apt remove linux-image-amd64 'linux-image-4.19*' -y
 update-grub
-apt install ifupdown2 -y
 apt autoremove -y
 
 clear
