@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/bin/s
+
 
 clear
-echo "Bienvenue sur l'installateur de PROXMOX sur debian ! Je suis entrain de faire les choses réquis pour que Proxmox s'installe !"
+echo "Bienvenue sur l'installateur de PROXMOX sur debian ! Je suis entrain de faire les choses réquis pour que Proxmox s'installe ! PROXMOX VE 7 !! VERSION NON RECOMMANDE"
 
 #Mettre à jour la machine
 
